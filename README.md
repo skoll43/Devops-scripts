@@ -37,4 +37,3 @@ Script básico para manejo de listas y datos estructurados.
 
 ---
 
-*Ideal para demostrar competencias en **DevOps**, **automatización de redes** y **desarrollo de herramientas** para infraestructura.*
