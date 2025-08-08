@@ -1,37 +1,40 @@
 
-Este repositorio demuestra habilidades en **Python**, automatización de redes con **Netmiko**, consumo de **APIs** (**MapQuest**), manejo de **SSH**, procesamiento de datos y desarrollo de soluciones para **networking** y viajes. Ideal para roles en ingeniería de redes, **DevNet** y automatización.
+# 📋 Devops-scripts
 
-- **Python**
-- **Netmiko**
-- **API**
-- **Automatización de redes**
-- **Consumo de APIs**
-- **Procesamiento de datos JSON**
-- **Interacción con usuario en consola**
-- **Validación y manejo de errores en python**
+**Colección de scripts Python para automatización de redes y consumo de APIs.** Incluye herramientas para gestión remota de dispositivos Cisco via SSH (Netmiko) y cálculo de distancias geográficas usando APIs REST (MapQuest).
 
+## 🛠️ Contenido
 
+### `usando_netmiko.py` - Automatización de Redes
+Script interactivo que se conecta a dispositivos Cisco via SSH para ejecutar comandos show remotos:
+- **Conexión SSH** a equipos Cisco IOS
+- **Menú interactivo** con opciones: interfaces, running-config, version
+- **Gestión automatizada** de conexiones seguras
+- **Limpieza automática** del output de comandos
 
-## Resumen de uso de `usando_netmiko.py`
+### `distancia_ciudades.py` - Consumo de APIs
+Utiliza la API de MapQuest para calcular distancias y rutas entre ciudades:
+- **Cálculo de distancias** entre ciudades de Chile y Latinoamérica
+- **Información de rutas** con duración estimada del viaje
+- **Narrativa paso a paso** del trayecto
+- **Manejo de errores** y validación de entradas
 
-En este proyecto desarrollé un script en Python utilizando la librería Netmiko, una herramienta ampliamente utilizada para la automatización de redes. El archivo `usando_netmiko.py` permite la conexión automatizada a dispositivos de red (como switches y routers), la ejecución de comandos remotos y la recolección de información relevante para la administración y monitoreo de infraestructuras de red.
+### `lista_integrantes.py` - Utilidades
+Script básico para manejo de listas y datos estructurados.
 
-Este script demuestra mi capacidad para:
-- Automatizar tareas repetitivas en entornos de redes.
-- Integrar librerías externas en proyectos Python.
-- Gestionar conexiones seguras a dispositivos mediante SSH.
-- Procesar y presentar información técnica de manera eficiente.
+## 💡 Tecnologías
 
-La experiencia adquirida con este proyecto refuerza mis competencias en programación, automatización y administración de redes, habilidades clave para roles en ingeniería de redes y DevNet.
+`Python` • `Netmiko` • `REST APIs` • `SSH` • `JSON` • `Requests`
 
+## 🎯 Habilidades Demostradas
 
-## Resumen de uso de `distancia_ciudades.py`
+- **Automatización de redes** y dispositivos de infraestructura
+- **Consumo e integración de APIs** externas
+- **Manejo de conexiones SSH** seguras
+- **Procesamiento de datos JSON** y estructurados
+- **Interfaces de usuario** por consola
+- **Validación de datos** y manejo de errores
 
-Este script en Python utiliza la API de MapQuest para calcular la distancia entre una ciudad de Chile y otra ciudad de Latinoamérica. Solicita al usuario las ciudades de origen y destino, y muestra:
+---
 
-- La distancia total en kilómetros.
-- La duración estimada del viaje en horas, minutos y segundos.
-- Una narrativa paso a paso del trayecto.
-- Manejo de errores y validación de entradas.
-
-El desarrollo de este script demuestra habilidades en consumo de APIs, manejo de datos en formato JSON, interacción con el usuario y presentación clara de información relevante para la toma de decisiones en viajes.
+*Ideal para demostrar competencias en **DevOps**, **automatización de redes** y **desarrollo de herramientas** para infraestructura.*
